@@ -21,7 +21,6 @@ async function main() {
 
     const accounts = await ethers.getSigners()
 
-    deployer = accounts[0]
     funder = accounts[0]
     investor1 = accounts[1]
     investor2 = accounts[2]
